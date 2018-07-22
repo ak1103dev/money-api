@@ -1,0 +1,15 @@
+{
+  "name": "money-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ak1103dev/money-api.git",
+  "author": "ak1103dev <ak.apichan1103@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "sync-package-lock": "synp --source-file ./yarn.lock"
+  },
+  "dependencies": {
+    "apollo-server": "^2.0.0",
+    "graphql": "^0.13.2"
+  }
+}
