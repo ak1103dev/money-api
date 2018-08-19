@@ -7,9 +7,12 @@ const Account = require('./account');
 const Transaction = require('./transaction');
 
 mongoose.Promise = global.Promise;
-mongoose.connect(config.get('mongoUrl'), {
-  useMongoClient: true,
-});
+mongoose.connect(
+  config.get('mongoUrl'),
+  {
+    useMongoClient: true,
+  }
+);
 
 module.exports = {
   User,

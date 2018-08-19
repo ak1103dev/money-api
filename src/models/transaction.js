@@ -13,7 +13,7 @@ const schema = new Schema({
   info: String,
   amount: {
     type: Number,
-    min: [0, 'LEAST_AMOUNT_BE_ZERO']
+    min: [0, 'LEAST_AMOUNT_BE_ZERO'],
   },
   accountId: {
     type: ObjectId,
@@ -22,11 +22,11 @@ const schema = new Schema({
   },
   createdAt: {
     type: Date,
-    default: Date.now
+    default: Date.now,
   },
   updatedAt: {
     type: Date,
-    default: Date.now
+    default: Date.now,
   },
 });
 
