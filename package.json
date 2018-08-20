@@ -6,6 +6,7 @@
   "author": "ak1103dev <ak.apichan1103@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "start": "node ./src/bin/server.js",
     "sync-package-lock": "synp --source-file ./yarn.lock",
     "lint": "eslint src",
     "fix-lint": "eslint --fix src"
